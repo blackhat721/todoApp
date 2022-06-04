@@ -1,5 +1,5 @@
 from flask import render_template,redirect,url_for,flash,get_flashed_messages
-from app.main import app,db
+from app.app import app,db
 from app.models import Task
 from datetime import datetime
 
